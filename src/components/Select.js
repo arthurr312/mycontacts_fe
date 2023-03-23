@@ -11,6 +11,8 @@ export default styled.select`
     padding: 0 16px;
     font-size: 16px;
     transition: border-color 0.1s ease-in;
+    //prop que padroniza o estilo independente do SO
+    appearance: none;
     &:focus {
         border-color: ${({ theme }) => theme.colors.primary.main};
     }
